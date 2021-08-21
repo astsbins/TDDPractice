@@ -11,6 +11,6 @@ def problem1(n):
 
 def get_triangle_number(n):
     if n % 2 == 0:
-        return int(n ** 2 // 2 + n // 2)  ## has to be integer division, took me far too long to figure out
+        return int(n ** 2 // 2 + n // 2)  # has to be integer division, took me far too long to figure out
     else:
         return int(n ** 2 // 2 + n // 2 + 1)
